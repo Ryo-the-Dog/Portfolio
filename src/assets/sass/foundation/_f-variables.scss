@@ -1,0 +1,109 @@
+/* ====================================
+ Foundation
+==================================== */
+/* 変数を定義しています。
+==================================== */
+
+/**
+* 色
+*/
+// 黒色(主に文字色として使用)
+$color_black: #42454b;
+// グレー
+$color_gray_100: #fafafa;
+$color_gray_200: #ddd;
+$color_gray_300: #bebebe;
+$color_gray_400: #a0a0a0;
+$color_gray_500: #747474;
+
+// グレー(ホバー時)
+$color_gray_500_hover: #4c4c4c;
+
+// グレー(背景用)
+$color_gray_bg: #efefef;
+
+// 透過度の高いグレー
+$color_gray_transparent_5: rgba(230, 230, 230, 0.6);
+
+// 白色
+$color_white: #fff;
+// 透過度の高い白色
+$color_white_transparent_9: rgba(255, 255, 255, 0.9);
+$color_white_transparent_5: rgba(255, 255, 255, 0.5);
+
+// ボタン用の青色
+$color_btn_blue: #46abe8;
+
+// ボタン用の青色
+$color_btn_green: #46e8bb;
+
+// 青色(twitterアイコン)
+$color_twitter: #3490dc;
+
+// 青色(twitterアイコンのホバー時)
+$color_twitter_hover: #2977b3;
+
+// 影の色
+$shadow_color_1: 2px 2px 4px 1px rgba(25, 25, 25, 0.2);
+$shadow_color_2: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+$shadow_color_hover_1: 2px 3px 8px 2px rgba(150, 150, 150, 0.8);
+$shadow_color_hover_1-1: 3px 3px 8px 2px rgba(150, 150, 150, 0.8);
+
+/**
+* フォント
+*/
+// font-family
+$font-family_base: Helvetica, Arial, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3' , メイリオ, Meiryo, sans-serif;
+
+// font-size
+$font-size_xxs: 14px;
+$font-size_xs: 16px;
+$font-size_s: 18px;
+$font-size_m: 20px;
+$font-size_l: 24px;
+$font-size_xl: 30px;
+$font-size_xxl: 38px;
+$font-size_3l: 56px;
+
+/**
+* 余白
+*/
+$space_xs: 5px;
+$space_s: 10px;
+$space_m: 15px;
+$space_l: 20px;
+$space_xl: 30px;
+$space_xxl: 40px;
+$space_3l: 50px;
+$space_4l: 60px;
+$space_5l: 70px;
+$space_6l: 80px;
+
+/**
+* ボーダー
+*/
+// 黒のボーダー
+$border_black: solid 1px $color_black;
+// グレーのボーダー
+$border_gray: solid 1px $color_gray_200;
+
+/**
+* 角の丸み
+*/
+$radius_1: 1px;
+$radius_round_2: 2px;
+$radius_round_3: 3px;
+$radius_round: 2em;
+
+/**
+* コンテンツ幅
+*/
+// メインコンテンツの幅
+$site-width: 980px;
+
+// トランジション
+$transition_1: all .1s;
+$transition_3: all .3s;
+$transition_5: all .5s;
+
+$transform_scale: scale(1.01);

@@ -1,0 +1,14 @@
+/* ====================================
+ Component
+==================================== */
+/* アイコンを定義しています。
+==================================== */
+.c-icon--twitter {
+  color: $color_twitter;
+  font-size: $font-size_l;
+
+  &:hover {
+    color: $color_twitter_hover;
+    transition: $transition_3;
+  }
+}

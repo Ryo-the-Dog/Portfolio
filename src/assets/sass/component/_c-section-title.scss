@@ -1,0 +1,13 @@
+/* ====================================
+ Component
+==================================== */
+/* セクションのタイトルを定義しています。
+==================================== */
+.c-section-title {
+  border-bottom: solid 1px #212529;
+  color: $color_black;
+  font-size: $font-size_xl;
+  padding-bottom: $space_l;
+  margin-bottom: $space_xxl;
+  text-align: center;
+}

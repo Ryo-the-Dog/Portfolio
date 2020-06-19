@@ -1,0 +1,22 @@
+/* ====================================
+ Component
+==================================== */
+/* バッジを定義しています。
+==================================== */
+.c-badge {
+  flex-shrink: 0;
+  display: inline-block;
+  background-color: $color_gray_bg;
+  border-radius: $radius_round_2;
+  font-weight: bold;
+  font-size: 0.8rem;
+  width: 64px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: $space_s;
+  text-align: center;
+
+  @include mq(md) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,99 @@
+/* ====================================
+ Project
+==================================== */
+/* ナビゲーションを定義しています。
+==================================== */
+.p-navbar {
+  font-size: $font-size_m;
+  margin-right: -$space_l;
+  &__link {
+    cursor: pointer;
+    margin-right: $space_l;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+@include mq(md) {
+  .p-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 990;
+    text-align: center;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s ease, visibility .5s ease;
+    background: $color_white_transparent_9;
+    &.active {
+      z-index: 2;
+      visibility: visible;
+      opacity: 1;
+    }
+    &__item {
+      margin-right: initial;
+    }
+    &__list {
+      flex-direction: column;
+      width: 100%;
+      padding-top: $space_5l;
+    }
+    &__link {
+      display: block;
+      padding: $space_l;
+      text-align: center;
+    }
+  }
+
+}
+
+// ハンバーガーメニューの開閉トグル
+.p-navbar-trigger {
+  display: none;
+  cursor: pointer;
+  width: 40px;
+  height: 32px;
+  margin-left: $space_l;
+  position: relative;
+  z-index: 3;
+  transition: $transition_5;
+  @include mq(md) {
+    display: inline-block;
+  }
+  &__border {
+    box-sizing: border-box;
+    background-color: $color_gray_500;
+    border-radius: 4px;
+    display: inline-block;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    transition: transform .6s ease-in-out, top .5s ease;
+    &:nth-of-type(1) {
+      top: 0;
+    }
+    &:nth-of-type(2) {
+      top: 14px;
+    }
+    &:nth-of-type(3) {
+      bottom: 0;
+    }
+  }
+  &.active &__border{
+    &:nth-of-type(1) {
+      transform: translateY(12px) rotate(-45deg);
+    }
+    &:nth-of-type(2) {
+      opacity: 0;
+    }
+    &:nth-of-type(3) {
+      transform: translateY(-15px) rotate(45deg);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/* ====================================
+ Project
+==================================== */
+/* ヘッダーを定義しています。
+==================================== */
+.p-header {
+  padding: $space_l 0;
+  transition: $transition_5;
+  &.is-active {
+    background-color: $color_white_transparent_9;
+    transition: $transition_5;
+    box-shadow: $shadow_color_2;
+  }
+  &__container {
+    align-items: center;
+    justify-content: space-between;
+    width: $site-width;
+    margin: 0 auto;
+
+    @include mq(lg) {
+      width: 100%;
+      padding: 0 $space_l;
+    }
+    @include mq(sm) {
+      padding: 0 $space_s;
+    }
+  }
+}

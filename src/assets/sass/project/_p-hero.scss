@@ -1,0 +1,14 @@
+/* ====================================
+ Project
+==================================== */
+/* ヒーロー画像を定義しています。
+==================================== */
+.p-hero {
+  //background-image: url("~@/assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  height: 100vh;
+}
+

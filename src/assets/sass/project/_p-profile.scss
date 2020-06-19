@@ -1,0 +1,80 @@
+/* ====================================
+ Project
+==================================== */
+/* プローフィールセクションを定義しています。
+==================================== */
+.p-profile {
+
+  @include mq(md) {
+    flex-direction: column;
+  }
+
+  &__left {
+    width: 30%;
+    margin-right: 20px;
+
+    @include mq(md) {
+      width: 40%;
+      margin: 0 auto $space_l;
+    }
+  }
+
+  &__img-outer {
+    flex-grow: 1;
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    margin-bottom: $space_l;
+    text-align: center;
+  }
+
+  &__img {
+    border-radius: 50%;
+    width: 80%;
+  }
+
+  &__icon-outer {
+    text-align: center;
+  }
+
+  &__txt {
+    flex-grow: 3;
+    -ms-flex-positive: 3;
+    -webkit-box-flex: 3;
+    width: 65%;
+    text-align: left;
+
+    @include mq(md) {
+      width: 100%;
+    }
+  }
+
+  &__description {
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    margin-bottom: 10px;
+
+    @include mq(md) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  &__description:not(:nth-child(4)) {
+    align-items: center;
+  }
+
+  &__aboutMe {
+    line-height: 1.8rem;
+
+    @include mq(md) {
+      text-align: center;
+    }
+  }
+
+  &__badge {
+    @include mq(md) {
+      margin: 0 0 $space_xs;
+    }
+  }
+}

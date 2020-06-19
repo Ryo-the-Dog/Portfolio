@@ -1,0 +1,45 @@
+/* ====================================
+ Component
+==================================== */
+/* ボタンを定義しています。
+==================================== */
+.c-btn {
+  display: inline-block;
+  border-radius: $radius_round_2;
+  box-shadow: $shadow_color_1;
+  color: $color_white;
+  padding: $space_s;
+  text-align: center;
+
+  &:hover {
+    box-shadow: $shadow_color_hover_1;
+    transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    transition: $transition_3;
+    -webkit-transition: $transition_3;
+  }
+
+  &:active {
+    //background-color: #4795c5;
+    box-shadow: $shadow_color_1;
+    transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transition: $transition_3;
+    -webkit-transition: $transition_3;
+    outline: none;
+  }
+}
+
+.c-btn--blue {
+  background-color: $color_btn_blue;
+  width: 120px;
+  margin-right: $space_s;
+}
+
+.c-btn--green {
+  background-color: $color_btn_green;
+  width: 120px;
+  margin-right: $space_s;
+}

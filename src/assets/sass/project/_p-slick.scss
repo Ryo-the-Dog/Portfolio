@@ -1,0 +1,140 @@
+/* ====================================
+ Project
+==================================== */
+/* slickを定義しています。
+==================================== */
+
+/**
+ slick内のコンテンツのスタイルを定義しています
+*/
+.p-slick-content {
+  &__badge {
+    margin-bottom: $space_xs;
+  }
+
+  &__description {
+    margin-bottom: $space_l;
+  }
+
+  &__login {
+    margin-top: 1.5rem;
+  }
+
+  &__btn-outer {
+    @include mq(md) {
+      justify-content: center;
+    }
+  }
+}
+
+/**
+ slickのデフォルトのクラス名で指定しています
+*/
+.slider-for {
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+.slider-for .p-slick-content {
+  display: flex !important;
+  display: -ms-flex !important;
+  display: -webkit-flex !important;
+  align-items: flex-start !important;
+  -ms-flex-align: start !important;
+  -webkit-box-align: start !important;
+
+  @include mq(md) {
+    flex-direction: column;
+  }
+
+}
+
+.slider-for video{
+  width: 48%;
+  margin-right: 2%;
+
+  @include mq(md) {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: $space_xl;
+  }
+
+}
+
+.slider-for .p-slick-content__works-txt{
+  width: 50%;
+  margin-bottom: $space_xl;
+  @include mq(md) {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+/**
+ slick内のサムネイル
+*/
+.slider-nav {
+  //max-width: 700px;
+  width: 100% !important;
+  margin: 0 auto !important
+}
+.slider-nav .slick-slide img{
+  //display: inline-block;
+}
+.slider-nav img{
+  width: 100% !important;
+}
+
+
+//.slider-nav-thumb li {
+//  margin: 5px;
+//}
+.slider-nav .slick-current {
+  opacity: 0.5;
+}
+//.slider-nav .slick-track{
+//  width: 80% !important;
+//}
+.slider-nav .slick-list {
+  overflow: scroll !important;
+}
+.slider-nav .slick-track {
+  display: flex !important;
+  //width: 60% !important;
+  min-width: 600px;
+  margin: 0 auto !important;
+}
+
+.slider-nav .slick-track .slick-slide {
+  cursor: pointer;
+   width: 45% !important;
+ }
+.slider-nav .slick-track .slick-slide:not(:last-child) {
+  margin-right: 5% !important;
+}
+
+.swipe-prev,.swipe-next{
+  opacity: 0;
+}
+@include mq(sm) {
+
+  .slick-prev:before{
+    content: '' !important;
+    display: inline-block !important;
+    //background: url('@/assets/img/swipe-left.png') no-repeat !important;
+    background-size: contain !important;
+    width: 30px !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+  }
+  .slick-next:before{
+    content: '' !important;
+    display: inline-block !important;
+    //background: url('./src/assets/img/swipe-right.png') no-repeat !important;
+    background-size: contain !important;
+    width: 30px !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+  }
+
+}
