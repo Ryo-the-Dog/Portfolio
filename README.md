@@ -1,29 +1,15 @@
-<<<<<<< HEAD
-# portfolio
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
 # Portfolio
 今までの制作物を集めたポートフォリオサイトです。
->>>>>>> origin/master
+
+# 開発環境・使用言語
+MAMP
+<br>
+HTML・Sass(SCSS)・Vue.js
+
+# 制作について
+Vue.js(単一ファイルコンポーネント)で制作しました。パーツをコンポーネントで切り分けることで保守性の高い設計になっております。
+<br>
+ページが単調にならないように、制作物をサムネイルとムービーの形式で表示しました。
+
+# 制作者
+[Ryo](https://github.com/Ryo-the-Dog/)<br>
