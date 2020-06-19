@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # portfolio
 
 ## Project setup
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Portfolio
+今までの制作物を集めたポートフォリオサイトです。
+>>>>>>> origin/master
