@@ -38,6 +38,8 @@
 
                     <a class="c-btn c-btn--green" href="https://ryonexta.com/iza/" target="_blank">実物はコチラ</a>
 
+                    <a class="c-btn c-btn--blue" href="https://github.com/Ryo-the-Dog/Portfolio" target="_blank">GitHub</a>
+
                 </div>
 
             </div>
