@@ -20,7 +20,11 @@
 
                 <div class="p-slick-content__description language">
                     <span class="c-badge p-slick-content__badge">使用言語</span>
-                    <p>HTML・Sass(SCSS)・Laravel・Vue.js・MySQL、MAMP環境</p>
+                    <p>
+                        HTML・Sass(SCSS)・Laravel・Vue.js・MySQL
+                        <br/>
+                        MAMP環境
+                    </p>
                 </div>
 
                 <div class="p-slick-content__description">
@@ -49,7 +53,7 @@
 
                     <a class="c-btn c-btn--green" href="http://quotter-share.herokuapp.com/" target="_blank">実物はコチラ</a>
 
-                    <a class="c-btn c-btn--blue" href="https://github.com/Ryo-the-Dog/Quotter" target="_blank">GitHub</a>
+                    <a class="c-btn c-btn--red" href="https://github.com/Ryo-the-Dog/Quotter" target="_blank">GitHub</a>
 
                 </div>
 

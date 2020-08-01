@@ -18,7 +18,7 @@
 
                 <div class="p-slick-content__description language">
                     <span class="c-badge p-slick-content__badge">使用言語</span>
-                    <p>HTML ,CSS ,Vue.js</p>
+                    <p>HTML・CSS・Vue.js</p>
                 </div>
 
                 <div class="p-slick-content__description">
@@ -34,7 +34,7 @@
 
                 <div class="p-slick-content__btn-outer l-flexbox">
                     <a class="c-btn c-btn--green" href="https://vuejs-todo-test.herokuapp.com/" target="_blank">実物はコチラ</a>
-                    <a class="c-btn c-btn--blue" href="https://github.com/Ryo-the-Dog/Vue.js-ToDo" target="_blank">GitHub</a>
+                    <a class="c-btn c-btn--red" href="https://github.com/Ryo-the-Dog/Vue.js-ToDo" target="_blank">GitHub</a>
                 </div>
 
             </div>

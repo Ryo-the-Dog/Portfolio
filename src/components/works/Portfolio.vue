@@ -18,7 +18,11 @@
 
                 <div class="p-slick-content__description language">
                     <span class="c-badge p-slick-content__badge">使用言語</span>
-                    <p>HTML ,Sass(SCSS), Vue.js</p>
+                    <p>
+                        HTML・Sass(SCSS)・Vue.js
+                        <br/>
+                        vue-cli
+                    </p>
                 </div>
 
                 <div class="p-slick-content__description">
@@ -38,7 +42,7 @@
 
                     <a class="c-btn c-btn--green" href="https://ryonexta.com/iza/" target="_blank">実物はコチラ</a>
 
-                    <a class="c-btn c-btn--blue" href="https://github.com/Ryo-the-Dog/Portfolio" target="_blank">GitHub</a>
+                    <a class="c-btn c-btn--red" href="https://github.com/Ryo-the-Dog/Portfolio" target="_blank">GitHub</a>
 
                 </div>
 

@@ -6,6 +6,8 @@
         <!--メイン-->
         <slick ref="slick" :options="slickOptions" class="slider-for">
 
+            <web-tips></web-tips>
+
             <quotter></quotter>
 
             <portfolio></portfolio>
@@ -23,7 +25,9 @@
         <!--サムネイル-->
         <slick ref="slick" :options="slickNavOptions" class="slider-nav">
 
-            <img src="@/assets/img/quotter_top.png" alt="portfolio">
+            <img src="@/assets/img/webtips_top.png" alt="WebTips">
+
+            <img src="@/assets/img/quotter_top.png" alt="Quotter">
 
             <img src="@/assets/img/portfolio_top.png" alt="portfolio">
 
@@ -43,6 +47,7 @@
     import Slick from 'vue-slick'
     import '../../node_modules/slick-carousel/slick/slick.css'
     // 制作物のコンポーネント
+    import WebTips from "./works/WebTips"
     import Quotter from "./works/Quotter"
     import Portfolio from "./works/Portfolio"
     import VueTodo from "./works/VueTodo"
@@ -84,6 +89,7 @@
         },
         components: {
             Slick,
+            WebTips,
             Quotter,
             Portfolio,
             VueTodo,

@@ -7,16 +7,63 @@
 
   @include mq(md) {
     flex-direction: column;
+    text-align: center;
+  }
+
+  &__txt {
+    width: 100%;
+    text-align: left;
+
+    @include mq(md) {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto $space_l;
+      text-align: center;
+    }
   }
 
   &__left {
-    width: 30%;
-    margin-right: 20px;
+    width: 20%;
+    margin-right: 5%;
 
     @include mq(md) {
-      width: 40%;
-      margin: 0 auto $space_l;
+      width: 100%;
     }
+  }
+
+  &__center {
+    width: 40%;
+    margin-right: 5%;
+
+    @include mq(md) {
+      width: 100%;
+    }
+  }
+
+  &__right {
+    width: 25%;
+    margin-right: 5%;
+
+    @include mq(md) {
+      width: 100%;
+    }
+  }
+
+  &__btn-outer {
+    flex-direction: column;
+    margin-left: $space_l;
+    @include mq(md) {
+      flex-direction: row;
+      margin: $space_xl auto;
+    }
+    @include mq(sm) {
+      flex-direction: column;
+      margin: $space_m auto;
+    }
+  }
+
+  &__btn {
+    margin-bottom: $space_m;
   }
 
   &__img-outer {
@@ -36,22 +83,11 @@
     text-align: center;
   }
 
-  &__txt {
-    flex-grow: 3;
-    -ms-flex-positive: 3;
-    -webkit-box-flex: 3;
-    width: 65%;
-    text-align: left;
-
-    @include mq(md) {
-      width: 100%;
-    }
-  }
-
   &__description {
     display: flex;
     display: -ms-flex;
     display: -webkit-flex;
+    align-items: center;
     margin-bottom: 10px;
 
     @include mq(md) {
@@ -60,12 +96,27 @@
     }
   }
 
-  &__description:not(:nth-child(4)) {
-    align-items: center;
+  &__career {
+    display: flex;
+    align-items: flex-start;
+
+    @include mq(md) {
+      flex-direction: column;
+      align-items: inherit;
+    }
   }
 
   &__aboutMe {
     line-height: 1.8rem;
+
+    @include mq(md) {
+      text-align: center;
+    }
+  }
+
+  &__detail {
+    line-height: 1.8rem;
+    margin-top: $space_l;
 
     @include mq(md) {
       text-align: center;

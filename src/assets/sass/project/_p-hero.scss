@@ -4,11 +4,25 @@
 /* ヒーロー画像を定義しています。
 ==================================== */
 .p-hero {
-  //background-image: url("~@/assets/hero.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
   background-attachment: fixed;
+  font-family: 'Merriweather', serif;
   height: 100vh;
+  text-align: center;
+
+  &__title {
+    font-size: $font-size_xl;
+    line-height: 3rem;
+    position: relative;
+    top: -120px;
+  }
+  &__language {
+    font-size: $font-size_m;
+  }
 }
 
