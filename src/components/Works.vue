@@ -52,7 +52,7 @@
     import Portfolio from "./works/Portfolio"
     import VueTodo from "./works/VueTodo"
     import VerdeAlMare from "./works/VerdeAlMare"
-    import TechHazard from "./works/TechHazard"
+    // import TechHazard from "./works/TechHazard"
     import MyCheckList from "./works/MyCheckList"
 
     // スワイプアイコンの画像
@@ -94,7 +94,7 @@
             Portfolio,
             VueTodo,
             VerdeAlMare,
-            TechHazard,
+            // TechHazard,
             MyCheckList,
         },
     }
