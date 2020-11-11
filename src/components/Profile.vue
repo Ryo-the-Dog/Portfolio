@@ -30,14 +30,14 @@
                     <div class="p-profile__description">
                         <span class="c-badge p-profile__badge">年齢</span>
                         <p>
-                            29歳
+                            30歳
                         </p>
                     </div>
 
                     <div class="p-profile__description">
                         <span class="c-badge p-profile__badge">居住地</span>
                         <p>
-                            神奈川県
+                            東京都
                         </p>
                     </div>
 
@@ -49,7 +49,7 @@
                         <p class="p-profile__aboutMe">
                             ＜2013年〜2016年＞<br/>販売の仕事をしておりました。<br/>
                             ＜2016年〜2020年＞<br/>販売兼接客の仕事をしておりました。<br/>
-                            ＜2019年9月〜＞<br/>プログラミング学習を開始しました。<br/>
+                            ＜2019年10月〜＞<br/>プログラミング学習を開始しました。<br/>
                         </p>
                     </div>
                 </div>

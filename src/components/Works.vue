@@ -16,7 +16,7 @@
 
             <verde-al-mare></verde-al-mare>
 
-            <tech-hazard></tech-hazard>
+<!--            <tech-hazard></tech-hazard>-->
 
             <my-check-list></my-check-list>
 
@@ -35,7 +35,7 @@
 
             <img src="@/assets/img/verde-al-mare_top.png" alt="verde-al-mare">
 
-            <img src="@/assets/img/tech_hazard_top.png" alt="TECH HAZARD">
+<!--            <img src="@/assets/img/tech_hazard_top.png" alt="TECH HAZARD">-->
 
             <img src="@/assets/img/mychecklist_img.png" alt="マイチェックリスト">
 
