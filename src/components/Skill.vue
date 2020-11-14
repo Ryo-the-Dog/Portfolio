@@ -94,7 +94,7 @@
                         <img class="c-panel__img" src="@/assets/img/docker.png" alt="Docker">
                     </div>
                     <div class="c-panel__title-outer l-flexbox">
-                        <h3 class="c-panel__title">Vagrant</h3>
+                        <h3 class="c-panel__title">Docker</h3>
                     </div>
                 </div>
 
