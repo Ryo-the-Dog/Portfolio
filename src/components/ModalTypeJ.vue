@@ -6,7 +6,7 @@
         <div class="p-modal__content">
 
             <div class="p-modal__img-outer l-flexbox">
-                <img class="p-modal__img" src="@/assets/img/vagrant.png" alt="Vagrant">
+                <img class="p-modal__img" src="@/assets/img/docker.png" alt="Docker">
             </div>
 
             <div class="p-modal__text">

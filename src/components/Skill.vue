@@ -91,7 +91,7 @@
 
                 <div class="c-panel" @click="showModalTypeJ">
                     <div class="c-panel__img-outer l-flexbox">
-                        <img class="c-panel__img" src="@/assets/img/vagrant.png" alt="Vagrant">
+                        <img class="c-panel__img" src="@/assets/img/docker.png" alt="Docker">
                     </div>
                     <div class="c-panel__title-outer l-flexbox">
                         <h3 class="c-panel__title">Vagrant</h3>
